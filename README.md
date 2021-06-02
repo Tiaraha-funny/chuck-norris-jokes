@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Chucnk-Norris-Joke
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [**Live App**](https://random-chunck-norris-joke-peta.netlify.app/)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This random-chuck-jokes application is built with Typescript and React context. It is collected from the Frontend Recruitment Task project designed with [zeplin project](​https://app.zeplin.io/projects) and resourced API [icndb.com API](http://www.icndb.com/api/).
 
-### `yarn start`
+## Folder descriptions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Random-joke is the root folder that has several components in it.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- GlobalApp folder handles all the global code like context, display as home page and global style to handle the default styling.
+- The StyleComponent folder is occupied with only styles components.
+- Interfaces folder keeps the types that is used in the app
+- The Reducer folder handles the reducer functionality.
 
-### `yarn test`
+## Experience
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In this project, I faced quite a lot of struggles to get most of the features.
+Building an app with Typescript is still challenging for me so I got confused on accessing multiple functions from the globalContext file.
+I was struggling to get the select and the input to work fine.
 
-### `yarn build`
+## What I Have Learned and Improve
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I learned new things by creating a chuck-norris-joke application like knowing the importance of using the strim(‘’) and . It was amazing!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Having good name variables and functions are keys to understand more about code. It should always relate to what your functions do and help you to code it and find easily what I should code now. Not only for yourself to understand but also for others.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Use
 
-### `yarn eject`
+```bash
+# Clone this repository
+$ git clone https://github.com/Tiaraha-funny/random-jokes.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Install dependencies
+$ npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run the app
+$ npm start or open http://localhost:1234
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contact
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Email address [@peta-email-address](mailto:peta.jea@onja.org)
