@@ -37,7 +37,7 @@ $ git clone https://github.com/Tiaraha-funny/random-jokes.git
 $ npm install
 
 # Run the app
-$ npm start or open http://localhost:1234
+$ npm start or open http://localhost:3000
 ```
 
 ## Contact
